@@ -1,31 +1,49 @@
-# 📂 Organizador de Archivos en Python
+# 📂 Organizador Automático de Archivos en Python
 
 Automatiza la organización de carpetas moviendo archivos según su tipo.
 
+---
+
 ## 🚀 Funcionalidades
 
-- 📄 PDFs → carpeta "Pdfs"
-- 📊 Excel → carpeta "Excel"
-- 🖼️ Imágenes → carpeta "Imagenes"
-- 📃 Documentos → carpeta "Docs"
-- 🎥 Videos → carpeta "Videos"
-- 🌐 HTML → carpeta "Html"
+- 📄 PDFs → carpeta "Pdfs"  
+- 📊 Excel → carpeta "Excel"  
+- 🖼️ Imágenes → carpeta "Imagenes"  
+- 📃 Documentos → carpeta "Docs"  
+- 🎥 Videos → carpeta "Videos"  
+- 🌐 HTML → carpeta "Html"  
+
+---
 
 ## ⚙️ Cómo usar
 
 1. Ejecuta el script:
-   ```bash
-Primer-script.py
-   ---
-2. Ingresa la ruta de la carpeta (ej: Descargas)
-3. El programa organizará automáticamente los archivos
 
-## 🧠 Tecnologías
+```bash
+python organizador_archivos.py
+Ingresa la ruta de la carpeta (ej: Descargas)
+El programa organizará automáticamente los archivos
 
-- Python
-- os
-- shutil
+Ejemplo de ruta:
+C:/Users/juan/Downloads
 
-## 📌 Nota
+📸 Ejemplo
 
-Evita usarlo en carpetas sensibles sin revisar primero.
+Antes:
+
+archivo1.pdf
+imagen.png
+documento.docx
+
+Después:
+
+/Pdfs/archivo1.pdf
+/Imagenes/imagen.png
+/Docs/documento.docx
+🧠 Tecnologías
+Python
+os
+shutil
+📌 Nota
+
+Evita usar el script en carpetas importantes sin probar primero en una carpeta de prueba.
