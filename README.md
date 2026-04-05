@@ -16,7 +16,7 @@ Automatiza la organización de carpetas moviendo archivos según su tipo.
 1. Ejecuta el script:
    ```bash
 Primer-script.py
----
+   ---
 2. Ingresa la ruta de la carpeta (ej: Descargas)
 3. El programa organizará automáticamente los archivos
 
